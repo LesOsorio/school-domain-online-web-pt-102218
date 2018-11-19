@@ -5,7 +5,7 @@
       @name = name
       @roster = {}
     end
-    def add_student=(name, level)
+    def add_student(name, level)
       roster[level] ||=[]
       roster[level] << student 
     end
