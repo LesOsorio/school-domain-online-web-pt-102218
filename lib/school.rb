@@ -1,11 +1,8 @@
 
   class School
+    attr_accessor :name, :roster
+    def initialize(name, roster)
+      @name = name
+      @roster = {}
 
-    ROSTER = []
-    def initialize(school)
-      @school = school
-    end
-    def roster=(roster)
-      @roster = roster
-    end
   end
