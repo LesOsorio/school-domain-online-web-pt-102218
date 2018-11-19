@@ -5,6 +5,6 @@
       @model = model
     end
     def roster=(roster)
-      @roster = roster 
+      @roster = roster
     end 
   end
